@@ -1,0 +1,35 @@
+baseURL: https://dev.omaryahya.net
+title: "Omar's Dev Blog"
+theme: hextra
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo_dark.svg
+      link: /
+      width: 25
+      height: 25
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: FHIRWave
+      pageRef: /fhirwave
+      weight: 2
+    - name: Projects
+      pageRef: /projects
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/ramo-87"
+      params:
+        icon: github

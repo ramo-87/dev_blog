@@ -1,8 +1,6 @@
 ---
-linkTitle: Documentation
+linkTitle: Getting Started
 title: FHIRwave
 cascade:
   type: docs
 ---
-
-## This is an initial guide to running FHIRwave locally

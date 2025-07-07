@@ -18,9 +18,9 @@ menu:
     - name: Blog
       pageRef: /blog
       weight: 1
-    - name: FHIRWave
-      pageRef: /fhirwave
-      weight: 2
+    # - name: FHIRWave
+    #   pageRef: /fhirwave
+    #   weight: 2
     - name: Projects
       pageRef: /projects
       weight: 3
